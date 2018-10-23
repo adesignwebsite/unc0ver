@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>A_Design Websitejb</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<style type="text/css">
+		body {
+		     background-image: linear-gradient(0deg, #12e8d9 0%, #fff 87%);
+		     font-family: Helvetica;
+		     color: #000;
+position: relative;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+		}
+		 header {
+		     display: flex;
+		     align-items: center;
+		     flex-direction: column;
+		     height: 100vh;
+		     justify-content: center;
+		}
+		 .content {
+		     display: flex;
+		     flex-direction: column;
+		     align-items: center;
+		}
+		 .content > p {
+		     text-align: center;
+		     font-size: 25px;
+		     color: rgb(255,255,255,0.5);
+		     font-weight: 300;
+		     letter-spacing: 0.9px;
+		     line-height: 30px;
+		}
+		 .content > p > span {
+		     color: rgb(255,255,255,1);
+		     font-weight: 600;
+		}
+		 .button {
+		     display: inline-block;
+		     margin-top: 10px;
+		     margin-bottom: 20px;
+		     padding: 25px 30px;
+		     font-size: 60px;
+		     border: none;
+		     color: #1223e2;
+           
+		     font-weight: 500;
+		     letter-spacing: 0.72px;
+		     text-align: center;
+		     border-radius: 15px;
+		     text-decoration: none;
+		     font-family: Helvetica;
+		     -webkit-transition: .8s cubic-bezier(.2,1,.2,1);
+		     -o-transition: .8s cubic-bezier(.2,1,.2,1);
+		     transition: .8s cubic-bezier(.2,1,.2,1);
+		}
+		 .logo {
+		     max-width: 270px;
+		     margin-top: 20px;
+		  
+		}
+		 .devices {
+		     max-width: 75px;
+		     width: 100%;
+		     height: auto;
+		     padding: 50px;
+		     border-radius: 20px
+		}
+		 .p2 {
+		     opacity: 0.5;
+		     opacity: 0.5;
+		     font-size: 20px !important;
+		     letter-spacing: 1px !important;
+		}
+		 .changelog {
+		     display: flex;
+		     justify-content: center;
+		     align-items: center;
+		}
+		 @media only screen and (max-width: 420px){
+		     .devices {
+		         max-width: 70%;
+		    }
+		     .logo {
+		         max-width: 100%;
+		    }
+		     header {
+		    }
+		     .content > p {
+		         text-align: center;
+		         font-size: 18px;
+		         color: rgb(255,255,255,0.5);
+		         font-weight: 300;
+		         letter-spacing: 1px;
+		         line-height: 25px;
+		    }
+		     .button {
+		         font-size: 29px;
+		    }
+		     .p2 {
+		         font-size: 20px !important;
+		         letter-spacing: 1px !important;
+		    }
+		}
+		.tab {
+			padding-left:40px;
+		}
+		li {
+			margin-top: 14px;
+			font-size: 16px;
+			line-height: 20px;
+		}
+		hr {
+			border-color: rgba(150,162,178,1);
+		}
+		h4 {
+			font-weight: normal;
+			font-size: 25pt;
+		}
+	h3 {
+			font-weight: normal;
+			font-size: 25pt;
+		}
+		a {
+			color: rgba(150,162,178,1);
+		}
+a1 {
+			color: #0a7ffc;
+		}
+	</style>
+</head>
+<body>
+<div style="width: 600px;margin: 0 auto;" align="center">
+<img class="logo" width="150px" src="img/20181023221618.png">
+<h4>unc0ver </br>for iOS 11.0 - 11.4b3</h4>
+</br></br>
+<center>by
+<a href="https://twitter.com/Pwn20wnd">@Pwn20wnd</a> &
+<a href="https://twitter.com/sbingner">@sbingner</a>
+</br></br>UI by
+<a href="https://twitter.com/DennisBednarz">@DennisBednarz</a> & 
+<a href="https://www.reddit.com/u/Samg_is_a_Ninja">@Samg_is_a_Ninja</a></br></br>
+Design Website by 
+<a href="https://twitter.com/A_DesigniOS">A_Design</a>
+</center>
+</br></br>
+<hr>
+<div style="width: 600px;margin: 0 auto;">
+<h4>Download:</h4>
+<a class="button" href="https://is.gd/f9o1x1">Download IPA</a>
+<a class="button" width="300px" href="itms-services://?action=download-manifest&url=https://ipas.fun/plists/unc0ver.plist">Get Mobile</a>
+<a class="button" href="https://github.com/pwn20wndstuff/Undecimus?files=1">Source code</a>
+
+<hr>
+<div style="width: 600px;margin: 0 auto;">
+<h4>Changelog:</h4>
+<li>RC1: Initial release</li>
+<li>RC2: Add the dynastic repo by default and fix the unsupported error on some devices running the iOS 11.4 Beta</li>
+
+<li>RC3: Add an option to restore the RootFS, don't reset the preferences when switching from other jailbreaks and fix several errors</li>
+<li>RC4: Add a label to display the uptime, remove the custom fonts as they are the same with the system fonts, enable logging again and include spawn in the PATH</li>
+<li>RC5: Attempt to fix the videosubscriptionsd crashes, fix the Unsupported error and fix the Update Checker</li>
+<li>RC6: Enable logging, improve the version checks, improve the memory management and fix the MP exploit</li>
+<li>RC7: Fix the RootFS Restore on iOS 11.2 - 11.2.6 and improve the reliability of the MP Exploit's clean up</li>
+<li>RC8: Fix the snapshot errors, add a warning for the iOS 11.0-11.1.2 and 11.4 Beta 1 - 3 devices and clean up the code</li>
+<li>RC9: Fix the "Device will be restarted" loop, add even more detailed error messages and add an option to increase the memory limit to improve the stability and add compatibility layer to work correctly with some tweaks that were specifically made for the other jailbreaks</li>
+<li>V1: Fix the RootFS Restore for all supported versions, fix the snapshot related issues, make the settings tab match with the rest of the UI, more minor fixes and get this out of beta (Known issues: Some Beta firmwares are still broken)</li>
+<li>V1.0.1: DISABLE THE ROOTFS RESTORE ON IOS 11.0 - 11.1.2 AND ATTEMPT TO FIX SOME OTHERS (Known issues: Some Beta firmwares are still broken)</li>
+<li>V1.0.2: Bulletproof the RootFS Restore for iOS 11.0 - 11.2.6 (Known issues: Some Beta firmwares are still broken)</li>
+
+
+<hr>
+<div style="width: 600px;margin: 0 auto;">
+<h4>Specail Thanks:</h4>
+<li>@i41nbeer for triple_fetch, async_wake, empty_list & multi_path</li>
+<li>@Morpheus______ for the QiLin Tôlkit</li>
+<li>@xerub for libjb and the original patchfinder64</li>
+<li>@iBSparkes for the original amfid_payload, jailbreakd and pspawn_hôk</li>
+<li>@stek29 for the patchfinder64 additions, unlocknvram and hsp4</li>
+<li>@theninjaprawn for the patchfinder64 additions</li>
+<li>@Cryptiiiic for testing</li>
+<li>@xanDesign_ for testing</li>
+<li>@AppleDry05 for testing</li>
+<li>@Rob_Coleman123 for testing</li>
+<li>@MidnightChip for testing</li>
+<li>@FCE365 for testing</li>
+<li>@Swag_iOS for testing</li>
+<li>@jailbreakbuster for testing</li>
+<li>@Jakeashacks for testing</li>
+<hr>
+<div style="width: 600px;margin: 0 auto;">
+<h4 align="center">The most outstanding changes over the other jailbreaks</h4> 
+<li>All exploits in same app</li>
+<li>Detailed error messages</li>
+<li>Faster patches</li>
+<li>More stable patches</li>
+<li>No extra battery drain</li>
+<li>No random freezes</li>
+<li>No random slow downs</li>
+<li>No data is logged or shared</li>
+<li>No malware</li>
+<li>Proper jailbreak state detection</li>
+<li>Proper bootstrap extraction to fix issues such as Cydia not appearing after jailbreak</li>
+<li>Native build of Cydia for iOS 11</li>
+<li>Telesphoreo port for ARM64</li>
+<li>Much faster Cydia</li>
+<li>Much more stable Cydia</li>
+<li>Much more modern looking and acting Cydia</li>
+<li>Cydia skips uicache when not needed</li>
+<li>Cydia supports iPhone X screen size</li>
+<li>Cydia Substrate for tweak injection</li>
+<li>Much faster ldrestart</li>
+<li>Much more stable ldrestart</li>
+<li>Changes to Cydia were made</li> with permission from Saurik</li>
+<li>Option to skip loading daemons</li>
+<li>Option to dump APTicket</li>
+<li>Option to refresh icon cache</li>
+<li>Option to disable auto </li>updates</li>
+<li>Option to block app revokes</li>
+<li>Option to restore RootFS</li>
+<li>Button to restart device</li>
+<li>Button to open Cydia in case it doesn't appear on the Home Screen</li>
+<li>Label to show the days left till the application expires
+Working debugserver
+An awesome UI</li>
+<hr>
+<div style="width: 600px;margin: 0 auto;">
+<h4 align="center">The technical side:</h4> 
+<li>Exploit kernel_task</li>
+<li>Get kernel base</li>
+<li>Find offsets</li>
+<li>Get root</li>
+<li>Escape sandbox</li>
+<li>Get entitlements</li>
+<li>Dump APTicket</li>
+<li>Unlock nvram</li>
+<li>Set boot-nonce</li>
+<li>Lock nvram</li>
+<li>Allow double mount</li>
+<li>Remount RootFS</li>
+<li>Prepare resources</li>
+<li>Inject to trust cache</li>
+<li>Log slide</li>
+<li>Set HSP4</li>
+<li>Patch amfid</li>
+<li>Spawn jailbreakd</li>
+<li>Patch launchd</li>
+<li>Update version string</li>
+<li>Extract bootstrap</li>
+<li>Disable stashing</li>
+<li>Disable app revokes</li>
+Allow SpringBoard to show non-default system apps</li>
+<li>Disable Auto Updates</li>
+<li>Load Daemons</li>
+<li>Run uicache</li>
+<li>Load Tweaks</li>
+
+<hr>
+<div style="width: 600px;margin: 0 auto;">
+<h4>Switching from the other jailbreaks:</h4>
+<li>The RootFS will automatically be restored</li>
+
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/2448a7bd/cloudflare-static/rocket-loader.min.js" data-cf-nonce="89443427a499fa5b35a03e8b-" defer=""></script></body>
+</html>
